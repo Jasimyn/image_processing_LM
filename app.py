@@ -75,7 +75,7 @@ with block as demo:
     with gr.Row(equal_height=True):   
         with gr.Column(scale=15):
             # 展示的页面标题
-            gr.Markdown("""<h1><center>Cyber_Security_LM</center></h1>
+            gr.Markdown("""<h1><center>image_processing_LM</center></h1>
                 <center>图像处理问答小助手</center>
                 """)
 
