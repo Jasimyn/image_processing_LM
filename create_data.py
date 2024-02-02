@@ -41,7 +41,7 @@ def get_text(dir_path):
         if file_type == 'md':
             loader = UnstructuredMarkdownLoader(one_file)
         if file_type == 'pdf':
-            print("PDF ",one_file)
+            # print("PDF ",one_file)
             try:
                 loader = UnstructuredPDFLoader(one_file)
             except:
